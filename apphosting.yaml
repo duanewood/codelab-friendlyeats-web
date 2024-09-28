@@ -11,6 +11,8 @@ env:
     value: 345825549642
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
     value: 1:345825549642:web:8dd4160d516222adaeb5b3
+  - variable: GEMINI_API_KEY
+    secret: gemini-api-key
 
 # Settings for Cloud Run
 runConfig:
